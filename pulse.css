@@ -1,0 +1,52 @@
+/* TODO: seperate the two animations apart just like the Particle IO page css.
+    then will be able to pause each animation isolated.
+    Update: 09/30/2020 It doesn't look like that will be required. One animation w/ both pulse color & pulse grow/shrink effects works. The effect of making each ring & the center pulse at seperate rates seems to be located in the .r1, .r2, .r3 class style of "animation-delay".
+*/
+
+/* Hex 1 */
+@-webkit-keyframes HexPulse1 {
+    /* similar animation as "animation-name: iwZuZa;"    */
+    0% {background-color: #29ec09; transform: none; }
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(2.1);
+      }
+    50% {background-color: #071552; transform: none; }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.3);
+      }
+    100% {background-color: #29ec09; transform: none; }
+}
+
+/* Hex 2 */
+@-webkit-keyframes HexPulse2 {
+    /* similar animation as "animation-name: iwZuZa;"    */
+    0% {background-color: #29ec09; transform: rotate(60deg);  }
+    25% {
+        -webkit-transform: rotate(60deg) scale(1.1);
+        transform: rotate(60deg) scale(2.1);
+      }
+    50% {background-color: #071552; transform: rotate(60deg); }
+    75% {
+        -webkit-transform: rotate(60deg) scale(0.9);
+        transform: rotate(60deg) scale(0.3);
+      }
+    100% {background-color: #29ec09; transform: rotate(60deg); }
+}
+
+/* Hex 3 */
+@-webkit-keyframes HexPulse3 {
+    /* similar animation as "animation-name: iwZuZa;"    */
+    0% {background-color: #29ec09; transform: rotate(-60deg); }
+    25% {
+        -webkit-transform: rotate(-60deg) scale(1.1);
+        transform: rotate(-60deg) scale(2.1);
+      }
+    50% {background-color: #071552; transform: rotate(-60deg); }
+    75% {
+        -webkit-transform: rotate(-60deg) scale(0.9);
+        transform: rotate(-60deg) scale(0.3);
+      }
+    100% {background-color: #29ec09; transform: rotate(-60deg); }
+}
