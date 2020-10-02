@@ -1,0 +1,299 @@
+.HexSpinner___hexSpinner-y30mk1-0 {
+    background-color: black;
+    height: 70vh;
+    position: relative;
+}
+
+
+.font-size {
+    /* This style controls the size of the hex on screen. */
+    /* font-size: calc(0.85em + (1.5 * (100vw - 32em)) / 730) !important; */
+    font-size: calc(0.85em + (2.5 * (100vw - 62em)) / 730) !important
+}
+
+.kxopYT .socket {
+    /* These styles affect the position of the hex on screen. */
+    width: 20em;
+    height: 42em;
+    position: absolute;
+    left: 50%;
+    margin-left: -10em;
+    top: 50%;
+    margin-top: -10em;
+}
+
+.kxopYT .center-gel {
+    margin-left: -1.5em;
+    margin-top: -13.5em;
+    /* animation-name controls the pulse grow/shrink effect */
+    /* animation-name: ecTlTv; */
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.kxopYT .gel {
+    height: 3em;
+    width: 3em;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.kxopYT .hex-brick {
+    background-image: initial;
+    /* background-color: rgb(0, 32, 101); */
+}
+.kxopYT .hex-brick {
+    /* These styles also control the size of the hex on screen. */
+    /* background: rgb(41, 236, 9); */
+    width: 3em;
+    height: 1.7em;
+    /* The width & height styles can change the shape from a hexagon to anything, including fractals! */
+    position: absolute;
+    top: 0.5em;
+    /*  
+    animation-name controls the Pulse Color effect */
+    /* animation-name: iwZuzA; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.kxopYT .h2 {
+    /* transform: rotate(60deg); */
+}
+
+.kxopYT .h3 {
+    /* transform: rotate(-60deg); */
+}
+
+
+.kxopYT .r1 {
+    /* animation-name: ecTlTv; */
+    /* animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s; */
+    /* TO MAKE ALL OF THE HEXAGONS PULSE COLOR IN SYNC COMMENT OUT THE "animation-delay" STYLE! */
+}
+.kxopYT .c1 {
+    /* Style values changed by me for local */
+    margin-left: -7.1em;
+    margin-top: -13.5em;
+}
+.kxopYT .r1 > .hex-brick {
+    /* animation-name: iwZuzA; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+
+/* MY CODEPEN CLONE***************************/
+.kxopYT .center-gel:hover .translateZ{
+    border: 5px solid red;
+    display: none;
+    transform: rotate3d(30, 20, 20, 90deg) translateZ(250px);
+   /* Standard syntax */
+  }
+.kxopYT .r1:hover .translateZ{
+    border: 5px solid red;
+    display: none;
+    transform: rotate3d(30, 20, 20, 90deg) translateZ(250px);
+   /* Standard syntax */
+  }
+  .kxopYT .r2:hover .translateZ{
+    border: 5px solid red;
+    display: none;
+    transform: rotate3d(30, 20, 20, 90deg) translateZ(250px);
+   /* Standard syntax */
+  }
+  .kxopYT .r3:hover .translateZ{
+    border: 5px solid red;
+    display: none;
+    transform: rotate3d(30, 20, 20, 90deg) translateZ(250px);
+   /* Standard syntax */
+  }
+
+.kxopYT .r2 > .hex-brick  {
+    /* animation-name: ecTlTv; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+
+.kxopYT .r3 > .hex-brick  {
+    /* animation-name: ecTlTv; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+/* looks like each hex c(number) div gets placement via mx */
+/* Style values of .c2 through .c37 changed by me for local */
+.kxopYT .c2 {
+    margin-left: -4.2em;
+    margin-top: -18.4em;
+}
+.kxopYT .c3 {
+    margin-left: 1.4em;
+    margin-top: -18.4em;
+}
+.kxopYT .c4 {
+    margin-left: 4.2em;
+    margin-top: -13.5em;
+}
+.kxopYT .c5 {
+    margin-left: 1.4em;
+    margin-top: -8.9em;
+}
+.kxopYT .c6 {
+    margin-left: -4.2em;
+    margin-top: -8.9em;
+}
+.kxopYT .c7 {
+    margin-left: -9.9em;
+    margin-top: -18.4em;
+}
+.kxopYT .c8 {
+    margin-left: -7.1em;
+    margin-top: -23.1em;
+}
+.kxopYT .c9 {
+    margin-left: -1.6em;
+    margin-top: -23.1em;
+}
+.kxopYT .c10 {
+    margin-left: 4.1em;
+    margin-top: -23.1em;
+}
+.kxopYT .c11 {
+    margin-left: 6.9em;
+    margin-top: -18.4em;
+}
+.kxopYT .c12 {
+    margin-left: 9.7em;
+    margin-top: -13.5em;
+}
+.kxopYT .c13 {
+    margin-left: 6.9em;
+    margin-top: -8.9em;
+}
+.kxopYT .c14 {
+    margin-left: 4.2em;
+    margin-top: -4.2em;
+}
+.kxopYT .c15 {
+    margin-left: -1.3em;
+    margin-top: -4.2em;
+}
+.kxopYT .c16 {
+    margin-left: -6.9em;
+    margin-top: -4.2em;
+}
+.kxopYT .c17 {
+    margin-left: -9.9em;
+    margin-top: -8.8em;
+}
+.kxopYT .c18 {
+    margin-left: -12.7em;
+    margin-top: -13.5em;
+}
+.kxopYT .c19 {
+    margin-left: -18.3em;
+    margin-top: -13.5em;
+}
+.kxopYT .c20 {
+    margin-left: -15.5em;
+    margin-top: -18.4em;
+}
+.kxopYT .c21 {
+    margin-left: -12.8em;
+    margin-top: -23.1em;
+}
+.kxopYT .c22 {
+    margin-left: -10.1em;
+    margin-top: -27.9em;
+}
+.kxopYT .c23 {
+    margin-left: -4.5em;
+    margin-top: -27.9em;
+}
+.kxopYT .c24 {
+    margin-left: 1.3em;
+    margin-top: -27.9em;
+}
+.kxopYT .c25 {
+    margin-left: 7em;
+    margin-top: -27.9em;
+}
+.kxopYT .c26 {
+    margin-left: 9.7em;
+    margin-top: -23.1em;
+}
+.kxopYT .c27 {
+    margin-left: 12.5em;
+    margin-top: -18.4em;
+}
+.kxopYT .c28 {
+    margin-left: 15.4em;
+    margin-top: -13.5em;
+}
+.kxopYT .c29 {
+    margin-left: 12.4em;
+    margin-top: -8.9em;
+}
+.kxopYT .c30 {
+    margin-left: 9.7em;
+    margin-top: -4.2em;
+}
+.kxopYT .c31 {
+    margin-left: 6.9em;
+    margin-top: 0.7em;
+}
+.kxopYT .c32 {
+    margin-left: 1.3em;
+    margin-top: 0.7em;
+}
+.kxopYT .c33 {
+    margin-left: -4.3em;
+    margin-top: 0.7em;
+}
+.kxopYT .c34 {
+    margin-left: -10em;
+    margin-top: 0.7em;
+}
+.kxopYT .c35 {
+    margin-left: -12.7em;
+    margin-top: -4.1em;
+}
+.kxopYT .c36 {
+    margin-left: -15.5em;
+    margin-top: -8.8em;
+}
+/* .kxopYT .c37 {
+    margin-left: -4.2em;
+    margin-top: -8.9em;
+} */
+
+
+/* PULSING EFFECT ****************************/
+/* Sauce: https://codepen.io/chriscoyier/pen/BgrYZo */
+.HexPulse-cssHex1 {
+    animation: HexPulse1 2s ease-out;
+    animation-iteration-count: infinite;
+}
+.HexPulse-cssHex2 {
+    animation: HexPulse2 2s ease-out;
+    animation-iteration-count: infinite;
+}
+.HexPulse-cssHex3 {
+    animation: HexPulse3 2s ease-out;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* Non Hexagon Styles ******************************************/
+.translateZ{
+    transform: translateZ(1px);
+    transition: transform 0.9s ease; 
+  }
