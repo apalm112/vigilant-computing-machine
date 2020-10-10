@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Hexagon Transform</title>
   </head>
-  <body class="bg-secondary">
+<body class="augment-bg">
     
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <a class="navbar-brand" href="#">Brand</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,25 +27,33 @@
                         <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Vegan Pricing</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown link
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action Dog</a>
+                        <a class="dropdown-item" href="#">Another action dog</a>
+                        <a class="dropdown-item" href="#">Something else here, hot dog?</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
-        <h1>Something Index</h1>
-
         <!--  -->
         <!--  -->
+        <!-- add class="plugin-available-container my-spliced-augs" for same look sans the glitch animation! -->
+        <h1 class="glitch" augmented-ui="glitch" data-text="hardwired magnetic
+        professional console:">hardwired magnetic
+        professional console:</h1>
+        <!-- create function to dynamicaly add h1 text william-gibson-ipsum combos -->
+        <div class="plugin-available-container">
+            <div class="hex-indicator mt-1" augmented-ui="tl-clip tr-clip br-clip bl-clip exe"></div>
+            <div class="plugin-header" augmented-ui="l-clip-y br-clip exe">PLUGIN AVAILABLE WHILE SUPPLIES LAST</div>
+            <div class="beta-label">BETA</div>
+        </div>
         <!--  -->
         <!--  -->
         <div class="HexSpinner___hexSpinner-y30mk1-0 kxopYT">
@@ -145,11 +153,17 @@
                     <div class="hex-brick translateZ h2 font-size HexPulse-cssHex2"></div>
                     <div class="hex-brick translateZ h3 font-size HexPulse-cssHex3"></div>
                 </div>
-                <div class="gel c19 r3">
+                <!--  -->
+                <!--  -->
+                <!-- <div data-augmented-ui="all-hexangle-up border" class="reticle"></div> -->
+                <div class="gel c19 r3 reticle" data-augmented-ui="all-hexangle-up border">
                     <div class="hex-brick translateZ h1 font-size HexPulse-cssHex1"></div>
                     <div class="hex-brick translateZ h2 font-size HexPulse-cssHex2"></div>
                     <div class="hex-brick translateZ h3 font-size HexPulse-cssHex3"></div>
                 </div>
+                <!--  -->
+                <!--  -->
+                <!--  -->
                 <div class="gel c20 r3">
                     <div class="hex-brick translateZ h1 font-size HexPulse-cssHex1"></div>
                     <div class="hex-brick translateZ h2 font-size HexPulse-cssHex2"></div>
@@ -239,6 +253,9 @@
             </div>
         </div>
         <!--  -->
+        <br>
+        <br>
+        <div data-augmented-ui="all-hexangle-up border" class="reticle"></div>
         <!--  -->
 
 
@@ -246,5 +263,37 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </body>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+</body>
 </html>
